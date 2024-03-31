@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/leeseunghoon/Desktop/Hoon/SSU/4-1/자료구조/자료구조 연습문제/2024_DataStructure/LRU/main"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initList, symObjAddr: 0x0, symBinAddr: 0x1000036D8, symSize: 0x20 }
+  - { offsetInCU: 0x49, offset: 0x49, size: 0x8, addend: 0x0, symName: _initList, symObjAddr: 0x0, symBinAddr: 0x1000036D8, symSize: 0x20 }
+  - { offsetInCU: 0x6D, offset: 0x6D, size: 0x8, addend: 0x0, symName: _append, symObjAddr: 0x20, symBinAddr: 0x1000036F8, symSize: 0xB4 }
+  - { offsetInCU: 0xAD, offset: 0xAD, size: 0x8, addend: 0x0, symName: _removeItem, symObjAddr: 0xD4, symBinAddr: 0x1000037AC, symSize: 0x148 }
+  - { offsetInCU: 0xFF, offset: 0xFF, size: 0x8, addend: 0x0, symName: _size, symObjAddr: 0x21C, symBinAddr: 0x1000038F4, symSize: 0x18 }
+  - { offsetInCU: 0x127, offset: 0x127, size: 0x8, addend: 0x0, symName: _getNode, symObjAddr: 0x234, symBinAddr: 0x10000390C, symSize: 0xAC }
+  - { offsetInCU: 0x187, offset: 0x187, size: 0x8, addend: 0x0, symName: _clearList, symObjAddr: 0x2E0, symBinAddr: 0x1000039B8, symSize: 0xA4 }
+  - { offsetInCU: 0x1C7, offset: 0x1C7, size: 0x8, addend: 0x0, symName: _contains, symObjAddr: 0x384, symBinAddr: 0x100003A5C, symSize: 0xB8 }
+  - { offsetInCU: 0x20B, offset: 0x20B, size: 0x8, addend: 0x0, symName: _initCacheSimulator, symObjAddr: 0x43C, symBinAddr: 0x100003B14, symSize: 0x44 }
+  - { offsetInCU: 0x23D, offset: 0x23D, size: 0x8, addend: 0x0, symName: _do_sim, symObjAddr: 0x480, symBinAddr: 0x100003B58, symSize: 0xD4 }
+  - { offsetInCU: 0x28B, offset: 0x28B, size: 0x8, addend: 0x0, symName: _print_stats, symObjAddr: 0x554, symBinAddr: 0x100003C2C, symSize: 0x7C }
+  - { offsetInCU: 0x2AF, offset: 0x2AF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5D0, symBinAddr: 0x100003CA8, symSize: 0x164 }
+...
