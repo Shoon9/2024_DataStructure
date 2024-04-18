@@ -35,17 +35,3 @@ class ListStack:
             out += st.pop()
         return out   
         
-    def check_reverse(self, string):
-        mid = len(string) // 2
-        first_half = string[:mid]
-        second_half = string[mid:]
-        
-        for i in second_half:
-            self.push(i)
-        
-        for i in first_half:
-            if i != self.pop():
-                return False
-        
-        return True
-
