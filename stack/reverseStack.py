@@ -1,4 +1,4 @@
-from linkedStack import *
+from listStack import *
 
 def reverse(str):
     st = ListStack()

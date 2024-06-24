@@ -1,6 +1,5 @@
-from src.minHeap import *
+from minHeap import *
 
-# Print('Heap')
 
 h1 = MinHeap([1, 11, 9, 2, 3])
 h1.buildHeap()
